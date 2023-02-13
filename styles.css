@@ -1,0 +1,175 @@
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+/* containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Navbar */
+
+.navbar{
+    padding-bottom: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+#title{
+    font-family: "Montserrat";
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Title img */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 40px;
+}
+
+.features-title{
+    font-size: 1.5rem;
+}
+
+.title-heading{
+    color: #fff;
+    font-size: 4.5rem;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+/* Icons */
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#features{
+    background-color: #fff;
+}
+
+.feature-box{
+    padding: 4.5%;
+}
+
+.sentence{
+    color: grey;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* cards */
+
+.card-lines{
+    margin: 4% 3%;
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 1.9rem;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* CTA section */
+
+
+#cta{
+    background-color: #ff4c68;
+    font-family: "Montserrat";
+    color: #fff;
+    padding: 2% 15%;
+}
+
+.cta-head{
+    font-size: 3.5rem;
+}
+
+
+/* footer */
+
+.footer-icon{
+    padding-top: 6%;
+    margin: 2% 2%;
+}
+
+#footer .container-fluid{
+    text-align: center;
+}
+
+
+#footer{
+    padding: 0% 9%;
+}
+
+
